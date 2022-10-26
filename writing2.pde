@@ -38,7 +38,6 @@ float padding = 50; //四角形と文字の間のパディング
 float rrWidth = 718; //四角形の幅
 float div = 1.7; //文字を書くスピード
 ArrayList<String> lines = new ArrayList<String>();
-String[] emojis;
 String imageName = "images[0]";
 String fontName = "APJapanesefont.ttf";
 PFont textFont;
