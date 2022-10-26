@@ -101,16 +101,16 @@ void newPage() {
   //イージングを使って改行する
   if (texts.size()>0) {
     for (int i = 0; i < texts.size(); i++) { //テキスト
-      texts.get(i).move(86.00); //move()の中の数字、小さいほど早い
+      texts.get(i).move(90.00); //move()の中の数字、小さいほど早い
     }
   }
 
   for (int i = 0; i < rrect.size(); i++) { //四角形
-    rrect.get(i).move(86.00);
+    rrect.get(i).move(90.00);
   }
 
   for (int i = 0; i < erasers.size(); i++) {
-    erasers.get(i).move(86.0); //消しゴム
+    erasers.get(i).move(90.0); //消しゴム
   }
 
   //改行を終わらせる
