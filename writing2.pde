@@ -106,7 +106,7 @@ void setup() {
   //四角形を追加
   rrX = textX-padding;
   rrY = textY-textSpace-padding;
-  rrHeight = textSpace*2+padding*2;
+  rrHeight = 250;
   rrect.add(new RoundRect(rrX, rrY, rrWidth, rrHeight));
 
   //文字入力部分
