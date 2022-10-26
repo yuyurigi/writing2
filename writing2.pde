@@ -10,7 +10,7 @@ import java.awt.*;
 import javax.swing.border.LineBorder;
 import java.awt.Font;
 
-boolean bGuide = false; //ガイドの表示
+boolean bGuide = true; //ガイドの表示
 
 ArrayList<RShape> grp = new ArrayList<RShape>();
 int textSize = 60; //一文字の大きさ
