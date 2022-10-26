@@ -352,19 +352,19 @@ void draw() {
     fill(infoColor);
     rect(mouseX+10, mouseY, infoWidth[0], infoTextSize+infoPadding*2, 10);
     fill(infoTextColor);
-    text(infoText[0], mouseX+10+infoWidth[0]/2, mouseY+infoPadding*0.6);
+    text(infoText[0], mouseX+10+infoWidth[0]/2, mouseY+infoPadding*0.8);
   }
   if (bInfo[1] == true) {
     fill(infoColor);
     rect(mouseX+10, mouseY, infoWidth[1], infoTextSize+infoPadding*2, 10);
     fill(infoTextColor);
-    text(infoText[1], mouseX+10+infoWidth[1]/2, mouseY+infoPadding*0.6);
+    text(infoText[1], mouseX+10+infoWidth[1]/2, mouseY+infoPadding*0.8);
   }
   if (bInfo[2] == true) {
     fill(infoColor);
     rect(mouseX-10-infoWidth[2], mouseY, infoWidth[2], infoTextSize+infoPadding*2, 10);
     fill(infoTextColor);
-    text(infoText[2], mouseX-10-infoWidth[2]/2, mouseY+infoPadding*0.6);
+    text(infoText[2], mouseX-10-infoWidth[2]/2, mouseY+infoPadding*0.8);
   }
 
   //マウスオーバー時
